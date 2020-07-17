@@ -10,6 +10,7 @@ public enum GameVersion {
 
     VERSION_1_15("1.15.2");
 
+    VERSION_1_16("1.16.1");
     public static GameVersion findByName(String name) {
         for (GameVersion version : values()) {
             if (version.version.equals(name)) {
